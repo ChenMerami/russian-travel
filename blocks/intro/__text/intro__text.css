@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #ffffff;
   max-width: 690px;
   padding: 0 0 33px 0;
@@ -13,5 +13,11 @@
 @media screen and (max-width: 768px) {
   .intro__text {
     max-width: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    line-height: 1.6;
   }
 }
