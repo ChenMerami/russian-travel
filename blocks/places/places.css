@@ -1,0 +1,10 @@
+.places {
+  padding: 4vw 10vw 4vw 10vw;
+  margin:0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 4vw;
+  }
+}

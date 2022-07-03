@@ -1,0 +1,23 @@
+.cover {
+  margin: 4vw;
+  display: block;
+  position: relative;
+  width: 92vw;
+  height: calc(92vw / 1.6);
+  max-width: 100%;
+
+  background-image: url("../../images/cover-trains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cover:hover {
+
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 0;
+    width: calc(100vw - 2px);
+    height: calc((100vw - 2px) / 1.6);
+  }
+}
