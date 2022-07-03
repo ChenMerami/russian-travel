@@ -1,23 +1,24 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Document</title>
+  <title>Путешествие по России</title>
 </head>
 <body>
   <main class="page">
     <header class="header">
       <img src="images/header-logo.svg" alt="logo" class="header__logo">
       <ul class="header__lang-links">
-        <li value="ru" class="header__lang-link header__lang-link_selected">Ru</li>
-        <li value="en" class="header__lang-link">En</li>
+        <li class="header__lang-link header__lang-link_selected">Ru</li>
+        <li class="header__lang-link">En</li>
       </ul>
     </header>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="images/lead-polka.jpg" alt="" class="lead__image" width="100px">
+      <img src="images/lead-polka.jpg" alt="" class="lead__image">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
     <section class="intro">
@@ -38,7 +39,7 @@
         <li class="intro__list-item"><span class="intro__list-item_highlighted">Аэропортов</span> 241</li>
       </ul>
     </section>
-    <section class="photo-grid">
+    <div class="photo-grid">
       <img src="images/photo-grid-train.jpg" alt="" class="photo-grid__item">
       <img src="images/photo-grid-atharva-tulsi.jpg" alt="" class="photo-grid__item">
       <img src="images/photo-grid-tuman.jpg" alt="" class="photo-grid__item">
@@ -51,7 +52,7 @@
       <img src="images/photo-grid-kamchatka-2.jpg" alt="" class="photo-grid__item">
       <img src="images/photo-grid-baikal-2.jpg" alt="" class="photo-grid__item">
       <img src="images/photo-grid-ergaki.jpg" alt="" class="photo-grid__item">
-    </section>
+    </div>
     <ul class="places">
       <li class="place">
         <h3 class="place__title">Куршская коса</h3>
