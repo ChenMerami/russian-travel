@@ -1,10 +1,17 @@
 .places {
-  padding: 4vw 10vw 4vw 10vw;
-  margin: 0;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 48px 92px 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .places {
-    padding: 4vw;
+    padding: 0 24px 92px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    padding: 0 0 64px 0;
   }
 }

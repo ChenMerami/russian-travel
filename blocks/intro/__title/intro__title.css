@@ -5,8 +5,15 @@
   font-size: 54px;
   line-height: 1.1;
   color: #ffffff;
+  max-width: 690px;
   padding: 0 0 40px 0;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: none;
+  }
 }
 
 @media screen and (max-width: 425px) {

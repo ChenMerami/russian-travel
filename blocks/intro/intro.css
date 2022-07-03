@@ -1,18 +1,17 @@
 .intro {
-  padding: 4vw 10vw 4vw 10vw;
-  max-width: 690px;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro {
-    padding: 4vw;
-  }
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 48px 92px 48px;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 92vw;
-    padding: 4vw 0;
-    margin: auto;
+    padding: 0 24px 92px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 0 16px 64px 16px;
   }
 }

@@ -20,3 +20,9 @@
     font-size: 32px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__title {
+    padding: 0 16px 0 16px;
+  }
+}
