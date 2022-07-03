@@ -5,13 +5,9 @@
   width: 92vw;
   height: calc(92vw / 1.6);
   max-width: 100%;
-
   background-image: url("../../images/cover-trains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-.cover:hover {
-
 }
 
 @media screen and (max-width: 1024px) {
