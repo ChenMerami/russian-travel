@@ -3,20 +3,17 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.1;
+  line-height: 1;
   text-align: center;
   color: #ffffff;
-
   margin: 0 auto 0px auto;
   padding: 0 0 32px 0;
   max-width: 720px;
-  min-height: 200px;
 }
 
 @media screen and (max-width: 700px) {
   .lead__title {
     font-size: 64px;
-    min-height: 0;
   }
 }
 
